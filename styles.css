@@ -1,0 +1,37 @@
+body{
+  background-image: url("./untitled-1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image:url("./Valentine-Gif-Launch.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+button{
+  height: 40px;
+  width: 70px;
+  color: #ff0;
+  background: #000; 
+  border: none;
+  border-radius: 12%;
+}
+
+button:hover {
+  background-color: #6d6e6f;
+  transform: scale(1.05);
+}
+
+#move{
+  position: relative;
+}
